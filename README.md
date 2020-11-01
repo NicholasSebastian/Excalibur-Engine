@@ -13,5 +13,5 @@ Theoretically, everything should work perfectly fine, but.. as is everything els
 ## Problems so far
 
 1. Crashes when 'Close()' is called. I assume that it has something to do with deleting the vertex buffers on close while the loop has not stopped, causing the render method to be called while the vertex buffers are already deleted.
-2. The biggest problem thus far.. I can't textures to work, for some reason they show up as grayscale, small, and tiles horizontally.
+2. The biggest problem thus far.. I can't get textures to work, for some reason they show up as grayscale, small, and tiles horizontally.
 
